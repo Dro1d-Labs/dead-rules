@@ -10,7 +10,7 @@ This document provides complete attribution for all upstream blocklists used in 
 - **License:** Public Domain
 - **Format:** Hosts file
 - **Last Retrieved:** December 2025
-- **Approximate Rules:** ~2,800
+- **Approximate Rules:** ~3 500
 
 ### AdAway Default Blocklist
 - **URL:** https://adaway.org/hosts.txt
@@ -18,7 +18,7 @@ This document provides complete attribution for all upstream blocklists used in 
 - **License:** CC BY 3.0
 - **Format:** Hosts file
 - **Last Retrieved:** December 2025
-- **Approximate Rules:** ~10,000
+- **Approximate Rules:** ~6 500
 
 ### EasyPrivacy
 - **URL:** https://easylist.to/easylist/easyprivacy.txt
@@ -26,7 +26,7 @@ This document provides complete attribution for all upstream blocklists used in 
 - **License:** GPL v3 / CC BY-SA 3.0
 - **Format:** ABP/uBlock filter syntax (converted)
 - **Last Retrieved:** December 2025
-- **Approximate Rules:** ~5,000 (curated subset)
+- **Approximate Rules:** ~53 000 (curated subset)
 
 ## Custom Rules
 

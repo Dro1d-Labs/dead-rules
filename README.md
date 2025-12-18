@@ -1,6 +1,6 @@
 ![iOS](https://img.shields.io/badge/iOS-18+-lightgrey.svg)
 ![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local-green.svg)
-![Rules](https://img.shields.io/badge/Rules-~63k%20Active-brightgreen.svg)
+![Rules](https://img.shields.io/badge/Rules-48k%20Active-brightgreen.svg)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 
 # De-Ad Blocking Rules
@@ -22,11 +22,11 @@ De-Ad provides Safari with a curated blocklist (`blockerList.json`) that:
 4. Never sees your browsing history (by design of Apple's Content Blocker API)
 
 ## What's Included
+- ✅ 48 000 precision-trimmed rules (Safari’s safe limit)
 - ✅ Curated third-party blocklists (see [RULES.md](RULES.md))
-- ✅ dro1d labs custom optimizations
-- ✅ Cookie banner & consent popup rules
-- ✅ Social media tracker rules
-- ✅ All rules in human-readable JSON format
+- ✅ dro1d labs custom extras (cookie banners, social pixels)
+- ✅ 100 % on-device operation — no telemetry
+- ✅ Human-readable JSON for full transparency
 
 ## What's NOT Included
 - ❌ App source code (app is proprietary, rules are open)
@@ -43,7 +43,7 @@ dead-rules/
 └── LICENSE                 # MIT License
 
 ## Updates
-Rules are updated **weekly** and bundled with De-Ad app updates.
+Rules regenerate **weekly** (or sooner for urgent fixes) and ship with every App-Store update.
 
 Check [CHANGELOG.md](CHANGELOG.md) for recent additions.
 
@@ -51,7 +51,7 @@ Check [CHANGELOG.md](CHANGELOG.md) for recent additions.
 These rules are automatically bundled with the **De-Ad iOS app**. They update when you update the app from the App Store.
 
 **Want to use them elsewhere?**  
-The rules are Safari Content Blocker format. You can use them in any compatible iOS/macOS app, but De-Ad is built specifically for these rules.
+The rules are Safari Content Blocker format. You can use them in any compatible iOS/macOS app, but De-Ad is built specifically for these rules. Note: Rules are intentionally conservative to avoid site breakage. De-Ad prioritizes privacy without harming usability.
 
 ## Transparency Promise
 Every domain blocked by De-Ad is visible in `blockerList.json`.  
