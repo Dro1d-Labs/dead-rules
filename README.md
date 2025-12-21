@@ -8,11 +8,13 @@
 Open, auditable content blocking rules used by **[De-Ad](https://dro1d.org/dead.html)** — a minimal Safari ad blocker for iOS.
 
 ## Philosophy
-- 🔒 100% offline, on-device processing
-- 👁️ No tracking, telemetry, or analytics
-- 🚫 No remote rule execution
-- 📂 Fully auditable and transparent
-- 🆓 Free forever (app has optional Pro themes)
+
+De-Ad blocks ads without ever looking at what you browse.
+- 100% offline, on-device processing
+- No tracking, telemetry, or analytics
+- No remote rule execution
+- Fully auditable and transparent
+- Free forever (app has optional Pro themes)
 
 ## How It Works
 De-Ad provides Safari with a curated blocklist (`blockerList.json`) that:
