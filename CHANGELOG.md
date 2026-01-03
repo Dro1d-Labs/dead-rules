@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.2.1x – January 2026
+- Blocklist update
+
 ## v1.2.1 – December 2025
 - Blocklist update
 - Performance enhancements
