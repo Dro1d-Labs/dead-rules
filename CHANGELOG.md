@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.4.3 – May 2026
+- Blocklist enhanced & updated
+
 ## v1.4.2 – May 2026
 - Fixed Site Rescue feature
 - Improved Site Rescue UI with clearer usage instructions  
