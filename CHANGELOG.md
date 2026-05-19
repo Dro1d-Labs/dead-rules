@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.4.4 – May 2026
+- Blocklist updated
+- Whitelist search & export added
+- New premium theme
+
 ## v1.4.3 – May 2026
 - Blocklist enhanced & updated
 
