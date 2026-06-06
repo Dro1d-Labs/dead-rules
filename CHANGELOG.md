@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.4.5 – June 2026
+- Blocklist updated
+
 ## v1.4.4 – May 2026
 - Blocklist updated
 - Whitelist search & export added
