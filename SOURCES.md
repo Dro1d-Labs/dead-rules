@@ -9,7 +9,7 @@ This document provides complete attribution for all upstream blocklists used in 
 - **Maintainer:** Peter Lowe
 - **License:** Public Domain
 - **Format:** Hosts file
-- **Last Retrieved:** December 2025
+- **Last Retrieved:** June 2026
 - **Approximate Rules:** ~3 500
 
 ### AdAway Default Blocklist
@@ -17,16 +17,40 @@ This document provides complete attribution for all upstream blocklists used in 
 - **Maintainer:** AdAway Project
 - **License:** CC BY 3.0
 - **Format:** Hosts file
-- **Last Retrieved:** December 2025
+- **Last Retrieved:** June 2026
 - **Approximate Rules:** ~6 500
+
+### EasyList
+- **URL:** https://easylist.to/easylist/easylist.txt
+- **Maintainer:** EasyList Community
+- **License:** GPL v3 / CC BY-SA 3.0
+- **Format:** ABP/uBlock filter syntax (domains + path/URL rules, converted)
+- **Last Retrieved:** June 2026
+- **Used by:** ads blocker
 
 ### EasyPrivacy
 - **URL:** https://easylist.to/easylist/easyprivacy.txt
 - **Maintainer:** EasyList Community
 - **License:** GPL v3 / CC BY-SA 3.0
 - **Format:** ABP/uBlock filter syntax (converted)
-- **Last Retrieved:** December 2025
-- **Approximate Rules:** ~53 000 (curated subset)
+- **Last Retrieved:** June 2026
+- **Used by:** trackers blocker
+
+### Fanboy's Annoyance & Cookiemonster
+- **URL:** https://secure.fanboy.co.nz/fanboy-annoyance.txt , https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+- **Maintainer:** Fanboy / EasyList Community
+- **License:** GPL v3 / CC BY-SA 3.0
+- **Format:** ABP/uBlock filter syntax (converted)
+- **Last Retrieved:** June 2026
+- **Used by:** annoyances blocker
+
+### HaGeZi Pro
+- **URL:** https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt
+- **Maintainer:** HaGeZi
+- **License:** GPL v3
+- **Format:** Hosts file
+- **Last Retrieved:** June 2026
+- **Used by:** extended blocker
 
 ## Custom Rules
 

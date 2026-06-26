@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.4.6 – June 2026
+- Blocklist updated
+
 ## v1.4.5 – June 2026
 - Blocklist updated
 
