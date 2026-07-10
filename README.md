@@ -37,7 +37,7 @@ Safari caps each content blocker at 50,000 rules, but loads every enabled blocke
 - ✅ **~148,000 Rules Across 4 Blockers:** ads, trackers, annoyances and an extended domain list, each under Safari's per-blocker cap.
 - ✅ **Domain + Path Blocking:** whole-domain rules plus converted path/URL rules (e.g. `/pagead/`) and fetch/XHR beacon blocking.
 - ✅ **Smart Consolidation:** Blocks ad networks (e.g., `doubleclick.net`) while protecting shared content hosts.
-- ✅ **Curated Sources:** Peter Lowe, AdAway, EasyList, EasyPrivacy, Fanboy and HaGeZi Pro (see [RULES.md](RULES.md)).
+- ✅ **Curated Sources:** Peter Lowe, AdAway, EasyList, EasyPrivacy, Fanboy and HaGeZi Light (see [RULES.md](RULES.md)).
 - ✅ **100% Offline:** No telemetry, no "cloud" lookups.
 
 ---

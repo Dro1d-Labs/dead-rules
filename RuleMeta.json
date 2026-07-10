@@ -1,0 +1,90 @@
+{
+  "generated": "2026-07-10T15:43:59.055099+00:00",
+  "ruleCount": 146733,
+  "consolidationSavings": 37100,
+  "consolidationSkippedDueToSafety": 5,
+  "ignoredCandidates": 15973,
+  "sourcesBreakdown": {
+    "ads": 49000,
+    "trackers": 49000,
+    "annoyances": 5276,
+    "extra": 43457
+  },
+  "extensions": 4,
+  "perExtensionLimit": 50000,
+  "exceptionRules": 1897,
+  "categories": {
+    "ads": {
+      "ruleCount": 49000,
+      "domainRules": 43882,
+      "networkRules": 3221,
+      "cosmeticRules": 0,
+      "exceptionRules": 1897,
+      "thirdPartyScoped": 2248,
+      "domainCandidates": 53619,
+      "networkCandidates": 3221,
+      "dedupedDomains": 0,
+      "droppedDomains": 9737,
+      "consolidationSavings": 3650,
+      "consolidationSkipped": 0,
+      "sources": [
+        "easylist.txt",
+        "adaway.txt",
+        "peter-lowe.txt",
+        "custom-dro1d.txt"
+      ]
+    },
+    "trackers": {
+      "ruleCount": 49000,
+      "domainRules": 39103,
+      "networkRules": 8000,
+      "cosmeticRules": 0,
+      "exceptionRules": 1897,
+      "thirdPartyScoped": 4346,
+      "domainCandidates": 46312,
+      "networkCandidates": 8154,
+      "dedupedDomains": 973,
+      "droppedDomains": 6236,
+      "consolidationSavings": 134,
+      "consolidationSkipped": 1,
+      "sources": [
+        "easyprivacy.txt"
+      ]
+    },
+    "annoyances": {
+      "ruleCount": 5276,
+      "domainRules": 770,
+      "networkRules": 2606,
+      "cosmeticRules": 3,
+      "exceptionRules": 1897,
+      "thirdPartyScoped": 1446,
+      "domainCandidates": 911,
+      "networkCandidates": 2628,
+      "dedupedDomains": 141,
+      "droppedDomains": 0,
+      "consolidationSavings": 4,
+      "consolidationSkipped": 1,
+      "sources": [
+        "fanboy-annoyance.txt",
+        "fanboy-cookiemonster.txt"
+      ]
+    },
+    "extra": {
+      "ruleCount": 43457,
+      "domainRules": 41560,
+      "networkRules": 0,
+      "cosmeticRules": 0,
+      "exceptionRules": 1897,
+      "thirdPartyScoped": 717,
+      "domainCandidates": 57492,
+      "networkCandidates": 0,
+      "dedupedDomains": 15932,
+      "droppedDomains": 0,
+      "consolidationSavings": 33312,
+      "consolidationSkipped": 3,
+      "sources": [
+        "hagezi-light.txt"
+      ]
+    }
+  }
+}

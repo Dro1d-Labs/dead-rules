@@ -44,13 +44,14 @@ This document provides complete attribution for all upstream blocklists used in 
 - **Last Retrieved:** June 2026
 - **Used by:** annoyances blocker
 
-### HaGeZi Pro
-- **URL:** https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt
+### HaGeZi Light
+- **URL:** https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/light.txt
 - **Maintainer:** HaGeZi
 - **License:** GPL v3
 - **Format:** Hosts file
-- **Last Retrieved:** June 2026
+- **Last Retrieved:** July 2026
 - **Used by:** extended blocker
+- **Note:** Switched from the Pro list in v1.4.7. Pro (~537k domains) is ~10× the per-blocker budget, so it was being truncated alphabetically; Light (~91k) fits with headroom.
 
 ## Custom Rules
 
