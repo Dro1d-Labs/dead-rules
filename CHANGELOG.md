@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.4.7 – July 2026
+
+- 146,733 rules across 4 content blockers
+  - `ads`: 49,000 (43,882 domain, 3,221 network, 0 cosmetic, 1,897 exception)
+  - `trackers`: 49,000 (39,103 domain, 8,000 network, 0 cosmetic, 1,897 exception)
+  - `annoyances`: 5,276 (770 domain, 2,606 network, 3 cosmetic, 1,897 exception)
+  - `extra`: 43,457 (41,560 domain, 0 network, 0 cosmetic, 1,897 exception)
+- 1,897 upstream exception rules honoured per blocker
+- 37,100 redundant subdomain rules collapsed under a listed apex
+
 ## v1.4.6 – June 2026
 - Blocklist updated
 

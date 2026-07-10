@@ -34,11 +34,11 @@ De-Ad uses a curated combination of well-maintained public blocklists and custom
 **Coverage:** Cookie notices, social widgets, in-page annoyances  
 **Why we use it:** Powers the annoyances blocker (incl. cosmetic `css-display-none` rules)
 
-### 6. HaGeZi Pro
+### 6. HaGeZi Light
 **Source:** [https://github.com/hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists)  
 **License:** GPL v3  
-**Coverage:** Comprehensive, low-false-positive modern ad/tracker domain list  
-**Why we use it:** Fills the extended blocker with broad, up-to-date coverage
+**Coverage:** Curated, low-false-positive modern ad/tracker domain list  
+**Why we use it:** Fills the extended blocker. Sized to fit the per-blocker budget — the larger Pro list overflowed it ~10× and got truncated alphabetically, so we switched to Light in v1.4.7.
 
 ### 7. dro1d labs Custom Rules
 **Source:** Curated internally  
