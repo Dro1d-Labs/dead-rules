@@ -1,6 +1,6 @@
 ![iOS](https://img.shields.io/badge/iOS-16+-lightgrey.svg)
 ![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local-green.svg)
-![Rules](https://img.shields.io/badge/Rules-148k%20Across%204%20Blockers-brightgreen.svg)
+![Rules](https://img.shields.io/badge/Rules-163k%20Across%204%20Blockers-brightgreen.svg)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 
 # De-Ad Blocking Rules
@@ -23,18 +23,20 @@ Most ad blockers inspect the active page to apply complex cosmetic fixes. De-Ad 
 
 ## How It Works
 
-Safari caps each content blocker at 50,000 rules, but loads every enabled blocker at once. De-Ad ships **four** categorized blockers (ads, trackers, annoyances, extra) so the budgets stack — ~148,000 rules total instead of one capped list.
+Safari caps each content blocker at 50,000 rules, but loads every enabled blocker at once. De-Ad ships **four** categorized blockers (ads, trackers, annoyances, extra) so the budgets stack — ~163,000 rules total instead of one capped list.
 
 1. Each blocker is generated as its own list (`blockerList_<category>.json`).
 2. Safari's WebKit engine compiles these rules into bytecode.
 3. Ads and trackers are blocked at the network level **before** they load.
 4. Whitelisted domains are injected per-blocker via local App Groups on your device, keeping the bundled lists intact.
 
+Since the cap is per blocker, a category with more candidates than budget (ads, trackers) would otherwise throw domains away while another list sits under its own budget. As of v1.4.8 those overflow domains are **re-homed into whichever list still has room**, which is why `annoyances` holds more rules than its own sources produce — `CHANGELOG.md` records how many moved and where from. A re-homed rule is identical to what it would have been in its original list, and every list carries the same set of upstream exception rules, so nothing about matching behaviour changes.
+
 ---
 
 ## What's Included
 
-- ✅ **~148,000 Rules Across 4 Blockers:** ads, trackers, annoyances and an extended domain list, each under Safari's per-blocker cap.
+- ✅ **~163,000 Rules Across 4 Blockers:** ads, trackers, annoyances and an extended domain list, each under Safari's per-blocker cap.
 - ✅ **Domain + Path Blocking:** whole-domain rules plus converted path/URL rules (e.g. `/pagead/`) and fetch/XHR beacon blocking.
 - ✅ **Smart Consolidation:** Blocks ad networks (e.g., `doubleclick.net`) while protecting shared content hosts.
 - ✅ **Curated Sources:** Peter Lowe, AdAway, EasyList, EasyPrivacy, Fanboy and HaGeZi Light (see [RULES.md](RULES.md)).

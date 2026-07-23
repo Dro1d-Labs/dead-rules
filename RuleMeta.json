@@ -1,31 +1,34 @@
 {
-  "generated": "2026-07-10T15:43:59.055099+00:00",
-  "ruleCount": 146733,
-  "consolidationSavings": 37100,
+  "generated": "2026-07-23T00:51:45.337345+00:00",
+  "ruleCount": 163368,
+  "consolidationSavings": 36577,
   "consolidationSkippedDueToSafety": 5,
-  "ignoredCandidates": 15973,
+  "ignoredCandidates": 0,
   "sourcesBreakdown": {
     "ads": 49000,
     "trackers": 49000,
-    "annoyances": 5276,
-    "extra": 43457
+    "annoyances": 16368,
+    "extra": 49000
   },
   "extensions": 4,
   "perExtensionLimit": 50000,
   "exceptionRules": 1897,
+  "overflowRedistributed": 16962,
   "categories": {
     "ads": {
       "ruleCount": 49000,
-      "domainRules": 43882,
-      "networkRules": 3221,
+      "domainRules": 43876,
+      "networkRules": 3227,
       "cosmeticRules": 0,
       "exceptionRules": 1897,
-      "thirdPartyScoped": 2248,
-      "domainCandidates": 53619,
-      "networkCandidates": 3221,
-      "dedupedDomains": 0,
-      "droppedDomains": 9737,
-      "consolidationSavings": 3650,
+      "thirdPartyScoped": 2234,
+      "domainCandidates": 57159,
+      "networkCandidates": 3227,
+      "dedupedDomains": 2365,
+      "droppedDomains": 0,
+      "overflowRules": 0,
+      "spilledDomains": 10918,
+      "consolidationSavings": 3651,
       "consolidationSkipped": 0,
       "sources": [
         "easylist.txt",
@@ -40,11 +43,13 @@
       "networkRules": 8000,
       "cosmeticRules": 0,
       "exceptionRules": 1897,
-      "thirdPartyScoped": 4346,
-      "domainCandidates": 46312,
-      "networkCandidates": 8154,
-      "dedupedDomains": 973,
-      "droppedDomains": 6236,
+      "thirdPartyScoped": 4354,
+      "domainCandidates": 46365,
+      "networkCandidates": 8168,
+      "dedupedDomains": 1218,
+      "droppedDomains": 0,
+      "overflowRules": 0,
+      "spilledDomains": 6044,
       "consolidationSavings": 134,
       "consolidationSkipped": 1,
       "sources": [
@@ -52,39 +57,50 @@
       ]
     },
     "annoyances": {
-      "ruleCount": 5276,
-      "domainRules": 770,
-      "networkRules": 2606,
+      "ruleCount": 16368,
+      "domainRules": 772,
+      "networkRules": 2609,
       "cosmeticRules": 3,
       "exceptionRules": 1897,
-      "thirdPartyScoped": 1446,
+      "thirdPartyScoped": 1504,
       "domainCandidates": 911,
-      "networkCandidates": 2628,
-      "dedupedDomains": 141,
+      "networkCandidates": 2631,
+      "dedupedDomains": 139,
       "droppedDomains": 0,
+      "overflowRules": 11087,
+      "spilledDomains": 0,
       "consolidationSavings": 4,
       "consolidationSkipped": 1,
       "sources": [
         "fanboy-annoyance.txt",
         "fanboy-cookiemonster.txt"
-      ]
+      ],
+      "overflowFrom": {
+        "ads": 5043,
+        "trackers": 6044
+      }
     },
     "extra": {
-      "ruleCount": 43457,
-      "domainRules": 41560,
+      "ruleCount": 49000,
+      "domainRules": 41228,
       "networkRules": 0,
       "cosmeticRules": 0,
       "exceptionRules": 1897,
-      "thirdPartyScoped": 717,
-      "domainCandidates": 57492,
+      "thirdPartyScoped": 734,
+      "domainCandidates": 56370,
       "networkCandidates": 0,
-      "dedupedDomains": 15932,
+      "dedupedDomains": 15142,
       "droppedDomains": 0,
-      "consolidationSavings": 33312,
+      "overflowRules": 5875,
+      "spilledDomains": 0,
+      "consolidationSavings": 32788,
       "consolidationSkipped": 3,
       "sources": [
         "hagezi-light.txt"
-      ]
+      ],
+      "overflowFrom": {
+        "ads": 5875
+      }
     }
   }
 }
