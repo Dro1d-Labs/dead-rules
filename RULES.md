@@ -38,9 +38,15 @@ De-Ad uses a curated combination of well-maintained public blocklists and custom
 **Source:** [https://github.com/hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists)  
 **License:** GPL v3  
 **Coverage:** Curated, low-false-positive modern ad/tracker domain list  
-**Why we use it:** Fills the extended blocker. Sized to fit the per-blocker budget — the larger Pro list overflowed it ~10× and got truncated alphabetically, so we switched to Light in v1.4.7.
+**Why we use it:** Fills the extended blocker. Sized to fit the per-blocker budget — the larger Pro list overflowed it ~10× and got truncated alphabetically, so we switched to Light in v1.4.7. Upstream removed its `hosts/` build, so v1.4.9 reads the same list from `adblock/`.
 
-### 7. dro1d labs Custom Rules
+### 7. AdGuard Tracking Protection
+**Source:** [https://github.com/AdguardTeam/AdguardFilters](https://github.com/AdguardTeam/AdguardFilters)  
+**License:** GPL v3  
+**Coverage:** Tracking, analytics and telemetry endpoints  
+**Why we use it:** Added in v1.4.9. The trackers blocker was the only one whose sources couldn't fill its 49,000-rule budget, so the annoyances blocker had nothing to absorb and ran ~43,000 rules under its own. This list closes that gap, and its upstream exception rules come with it.
+
+### 8. dro1d labs Custom Rules
 **Source:** Curated internally  
 **License:** MIT (this repository)  
 **Coverage:** 

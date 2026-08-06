@@ -1,34 +1,34 @@
 {
-  "generated": "2026-07-23T00:51:45.337345+00:00",
-  "ruleCount": 163368,
-  "consolidationSavings": 36577,
-  "consolidationSkippedDueToSafety": 5,
-  "ignoredCandidates": 0,
+  "generated": "2026-08-06T17:37:57.936018+00:00",
+  "ruleCount": 196000,
+  "consolidationSavings": 7608,
+  "consolidationSkippedDueToSafety": 6,
+  "ignoredCandidates": 16855,
   "sourcesBreakdown": {
     "ads": 49000,
     "trackers": 49000,
-    "annoyances": 16368,
+    "annoyances": 49000,
     "extra": 49000
   },
   "extensions": 4,
   "perExtensionLimit": 50000,
-  "exceptionRules": 1897,
-  "overflowRedistributed": 16962,
+  "exceptionRules": 4019,
+  "overflowRedistributed": 58965,
   "categories": {
     "ads": {
       "ruleCount": 49000,
-      "domainRules": 43876,
-      "networkRules": 3227,
+      "domainRules": 41742,
+      "networkRules": 3239,
       "cosmeticRules": 0,
-      "exceptionRules": 1897,
+      "exceptionRules": 4019,
       "thirdPartyScoped": 2234,
-      "domainCandidates": 57159,
-      "networkCandidates": 3227,
-      "dedupedDomains": 2365,
+      "domainCandidates": 60922,
+      "networkCandidates": 3239,
+      "dedupedDomains": 2844,
       "droppedDomains": 0,
       "overflowRules": 0,
-      "spilledDomains": 10918,
-      "consolidationSavings": 3651,
+      "spilledDomains": 16336,
+      "consolidationSavings": 3654,
       "consolidationSkipped": 0,
       "sources": [
         "easylist.txt",
@@ -39,35 +39,36 @@
     },
     "trackers": {
       "ruleCount": 49000,
-      "domainRules": 39103,
+      "domainRules": 36981,
       "networkRules": 8000,
       "cosmeticRules": 0,
-      "exceptionRules": 1897,
-      "thirdPartyScoped": 4354,
-      "domainCandidates": 46365,
-      "networkCandidates": 8168,
-      "dedupedDomains": 1218,
-      "droppedDomains": 0,
+      "exceptionRules": 4019,
+      "thirdPartyScoped": 4527,
+      "domainCandidates": 99646,
+      "networkCandidates": 112096,
+      "dedupedDomains": 3164,
+      "droppedDomains": 16855,
       "overflowRules": 0,
-      "spilledDomains": 6044,
-      "consolidationSavings": 134,
-      "consolidationSkipped": 1,
+      "spilledDomains": 42629,
+      "consolidationSavings": 3950,
+      "consolidationSkipped": 2,
       "sources": [
-        "easyprivacy.txt"
+        "easyprivacy.txt",
+        "adguard-tracking.txt"
       ]
     },
     "annoyances": {
-      "ruleCount": 16368,
-      "domainRules": 772,
-      "networkRules": 2609,
+      "ruleCount": 49000,
+      "domainRules": 770,
+      "networkRules": 2625,
       "cosmeticRules": 3,
-      "exceptionRules": 1897,
-      "thirdPartyScoped": 1504,
+      "exceptionRules": 4019,
+      "thirdPartyScoped": 1598,
       "domainCandidates": 911,
-      "networkCandidates": 2631,
-      "dedupedDomains": 139,
+      "networkCandidates": 2633,
+      "dedupedDomains": 141,
       "droppedDomains": 0,
-      "overflowRules": 11087,
+      "overflowRules": 41583,
       "spilledDomains": 0,
       "consolidationSavings": 4,
       "consolidationSkipped": 1,
@@ -76,30 +77,30 @@
         "fanboy-cookiemonster.txt"
       ],
       "overflowFrom": {
-        "ads": 5043,
-        "trackers": 6044
+        "trackers": 41583
       }
     },
     "extra": {
       "ruleCount": 49000,
-      "domainRules": 41228,
+      "domainRules": 27599,
       "networkRules": 0,
       "cosmeticRules": 0,
-      "exceptionRules": 1897,
-      "thirdPartyScoped": 734,
-      "domainCandidates": 56370,
+      "exceptionRules": 4019,
+      "thirdPartyScoped": 822,
+      "domainCandidates": 41449,
       "networkCandidates": 0,
-      "dedupedDomains": 15142,
+      "dedupedDomains": 13850,
       "droppedDomains": 0,
-      "overflowRules": 5875,
+      "overflowRules": 17382,
       "spilledDomains": 0,
-      "consolidationSavings": 32788,
+      "consolidationSavings": 0,
       "consolidationSkipped": 3,
       "sources": [
         "hagezi-light.txt"
       ],
       "overflowFrom": {
-        "ads": 5875
+        "ads": 16336,
+        "trackers": 1046
       }
     }
   }
