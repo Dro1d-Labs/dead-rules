@@ -51,7 +51,7 @@ This document provides complete attribution for all upstream blocklists used in 
 - **Format:** ABP filter syntax (`||domain^`)
 - **Last Retrieved:** August 2026
 - **Used by:** extended blocker
-- **Note:** Switched from the Pro list in v1.4.7. Pro (~537k domains) is ~10× the per-blocker budget, so it was being truncated alphabetically; Light fits with headroom. Upstream deleted its `hosts/` build before v1.4.9; the `adblock/` build is the same list without the redundant `www.` duplicates, which is why its entry count roughly halved.
+- **Note:** Light is sized to the per-blocker budget; Pro (~537k domains) is ~10× it. Read from upstream's `adblock/` build, where each entry covers a domain and its subdomains.
 
 ### AdGuard Tracking Protection
 - **URL:** https://filters.adtidy.org/extension/ublock/filters/3.txt
@@ -60,7 +60,7 @@ This document provides complete attribution for all upstream blocklists used in 
 - **Format:** ABP/uBlock filter syntax (converted)
 - **Last Retrieved:** August 2026
 - **Used by:** trackers blocker (overflow re-homed into annoyances and extended)
-- **Note:** Added in v1.4.9 to fill capacity the other sources left unused. Its `@@` exception rules are honoured alongside EasyList's.
+- **Note:** Added in v1.4.9. Its `@@` exception rules are honoured alongside EasyList's.
 
 ## Custom Rules
 
