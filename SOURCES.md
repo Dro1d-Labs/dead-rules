@@ -45,13 +45,22 @@ This document provides complete attribution for all upstream blocklists used in 
 - **Used by:** annoyances blocker
 
 ### HaGeZi Light
-- **URL:** https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/light.txt
+- **URL:** https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt
 - **Maintainer:** HaGeZi
 - **License:** GPL v3
-- **Format:** Hosts file
-- **Last Retrieved:** July 2026
+- **Format:** ABP filter syntax (`||domain^`)
+- **Last Retrieved:** August 2026
 - **Used by:** extended blocker
-- **Note:** Switched from the Pro list in v1.4.7. Pro (~537k domains) is ~10× the per-blocker budget, so it was being truncated alphabetically; Light (~91k) fits with headroom.
+- **Note:** Switched from the Pro list in v1.4.7. Pro (~537k domains) is ~10× the per-blocker budget, so it was being truncated alphabetically; Light fits with headroom. Upstream deleted its `hosts/` build before v1.4.9; the `adblock/` build is the same list without the redundant `www.` duplicates, which is why its entry count roughly halved.
+
+### AdGuard Tracking Protection
+- **URL:** https://filters.adtidy.org/extension/ublock/filters/3.txt
+- **Maintainer:** AdGuard
+- **License:** GPL v3
+- **Format:** ABP/uBlock filter syntax (converted)
+- **Last Retrieved:** August 2026
+- **Used by:** trackers blocker (overflow re-homed into annoyances and extended)
+- **Note:** Added in v1.4.9 to fill capacity the other sources left unused. Its `@@` exception rules are honoured alongside EasyList's.
 
 ## Custom Rules
 

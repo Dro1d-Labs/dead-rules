@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.4.9 – August 2026
+
+- 196,000 rules across 4 content blockers
+  - `ads`: 49,000 (41,742 domain, 3,239 network, 0 cosmetic, 4,019 exception)
+  - `trackers`: 49,000 (36,981 domain, 8,000 network, 0 cosmetic, 4,019 exception)
+  - `annoyances`: 49,000 (770 domain, 2,625 network, 3 cosmetic, 4,019 exception) + 41,583 re-homed from trackers 41,583
+  - `extra`: 49,000 (27,599 domain, 0 network, 0 cosmetic, 4,019 exception) + 17,382 re-homed from ads 16,336, trackers 1,046
+- 58,965 domains re-homed from a blocker that hit the 50,000-rule cap into one with spare budget
+- 4,019 upstream exception rules honoured per blocker
+- 7,608 redundant subdomain rules collapsed under a listed apex
+
 ## v1.4.8 – July 2026
 
 - 163,368 rules across 4 content blockers
