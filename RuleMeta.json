@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-06T17:37:57.936018+00:00",
+  "generated": "2026-08-29T22:59:06.457539+00:00",
   "ruleCount": 196000,
-  "consolidationSavings": 7608,
+  "consolidationSavings": 7622,
   "consolidationSkippedDueToSafety": 6,
-  "ignoredCandidates": 16855,
+  "ignoredCandidates": 28082,
   "sourcesBreakdown": {
     "ads": 49000,
     "trackers": 49000,
@@ -12,45 +12,52 @@
   },
   "extensions": 4,
   "perExtensionLimit": 50000,
-  "exceptionRules": 4019,
-  "overflowRedistributed": 58965,
+  "exceptionRules": 4028,
+  "overflowRedistributed": 59213,
+  "exceptionsPruned": 3269,
+  "exceptionSlotsReclaimed": 3269,
   "categories": {
     "ads": {
       "ruleCount": 49000,
-      "domainRules": 41742,
-      "networkRules": 3239,
+      "domainRules": 41724,
+      "networkRules": 3248,
       "cosmeticRules": 0,
-      "exceptionRules": 4019,
-      "thirdPartyScoped": 2234,
-      "domainCandidates": 60922,
-      "networkCandidates": 3239,
-      "dedupedDomains": 2844,
+      "exceptionRules": 4020,
+      "exceptionsPruned": 8,
+      "thirdPartyScoped": 2252,
+      "domainCandidates": 54656,
+      "networkCandidates": 3248,
+      "dedupedDomains": 2349,
       "droppedDomains": 0,
-      "overflowRules": 0,
-      "spilledDomains": 16336,
-      "consolidationSavings": 3654,
+      "overflowRules": 8,
+      "spilledDomains": 10583,
+      "consolidationSavings": 3660,
       "consolidationSkipped": 0,
       "sources": [
         "easylist.txt",
         "adaway.txt",
         "peter-lowe.txt",
         "custom-dro1d.txt"
-      ]
+      ],
+      "overflowFrom": {
+        "trackers": 8
+      }
     },
     "trackers": {
       "ruleCount": 49000,
-      "domainRules": 36981,
+      "domainRules": 36979,
       "networkRules": 8000,
       "cosmeticRules": 0,
-      "exceptionRules": 4019,
-      "thirdPartyScoped": 4527,
-      "domainCandidates": 99646,
-      "networkCandidates": 112096,
-      "dedupedDomains": 3164,
-      "droppedDomains": 16855,
+      "exceptionRules": 4021,
+      "exceptionsPruned": 7,
+      "thirdPartyScoped": 4472,
+      "domainCandidates": 119980,
+      "networkCandidates": 223293,
+      "dedupedDomains": 3009,
+      "droppedDomains": 28082,
       "overflowRules": 0,
-      "spilledDomains": 42629,
-      "consolidationSavings": 3950,
+      "spilledDomains": 51892,
+      "consolidationSavings": 3958,
       "consolidationSkipped": 2,
       "sources": [
         "easyprivacy.txt",
@@ -59,16 +66,17 @@
     },
     "annoyances": {
       "ruleCount": 49000,
-      "domainRules": 770,
-      "networkRules": 2625,
+      "domainRules": 781,
+      "networkRules": 2633,
       "cosmeticRules": 3,
-      "exceptionRules": 4019,
-      "thirdPartyScoped": 1598,
-      "domainCandidates": 911,
-      "networkCandidates": 2633,
-      "dedupedDomains": 141,
+      "exceptionRules": 4016,
+      "exceptionsPruned": 12,
+      "thirdPartyScoped": 1574,
+      "domainCandidates": 914,
+      "networkCandidates": 2641,
+      "dedupedDomains": 133,
       "droppedDomains": 0,
-      "overflowRules": 41583,
+      "overflowRules": 41567,
       "spilledDomains": 0,
       "consolidationSavings": 4,
       "consolidationSkipped": 1,
@@ -77,21 +85,22 @@
         "fanboy-cookiemonster.txt"
       ],
       "overflowFrom": {
-        "trackers": 41583
+        "trackers": 41567
       }
     },
     "extra": {
       "ruleCount": 49000,
-      "domainRules": 27599,
+      "domainRules": 27314,
       "networkRules": 0,
       "cosmeticRules": 0,
-      "exceptionRules": 4019,
-      "thirdPartyScoped": 822,
-      "domainCandidates": 41449,
+      "exceptionRules": 786,
+      "exceptionsPruned": 3242,
+      "thirdPartyScoped": 856,
+      "domainCandidates": 41865,
       "networkCandidates": 0,
-      "dedupedDomains": 13850,
+      "dedupedDomains": 14551,
       "droppedDomains": 0,
-      "overflowRules": 17382,
+      "overflowRules": 20900,
       "spilledDomains": 0,
       "consolidationSavings": 0,
       "consolidationSkipped": 3,
@@ -99,8 +108,8 @@
         "hagezi-light.txt"
       ],
       "overflowFrom": {
-        "ads": 16336,
-        "trackers": 1046
+        "ads": 10583,
+        "trackers": 10317
       }
     }
   }
