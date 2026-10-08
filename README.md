@@ -1,4 +1,4 @@
-![iOS](https://img.shields.io/badge/iOS-16+-lightgrey.svg)
+![iOS](https://img.shields.io/badge/iOS-26.5+-lightgrey.svg)
 ![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local-green.svg)
 ![Rules](https://img.shields.io/badge/Rules-196k%20Across%204%20Blockers-brightgreen.svg)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
