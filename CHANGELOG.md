@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.5.6 – 2 November 2026
+
+- 20,031 hosts newly blocked, 19,971 retired upstream
+- 25,470 rules replaced across the four blockers
+
 ## v1.5.5 – 19 October 2026
 
 - 15,570 hosts newly blocked, 15,611 retired upstream
